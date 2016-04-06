@@ -1,96 +1,75 @@
-.nav a {
-  color: black;
-  font-size: 13px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
+
+
+body {
+    background-image: url(images/spaghetti.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
-.nav li {
-  display: inline;
+h1 {
+    color: black;
+    font-size: 48px;
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
-.jumbotron {
-  background-image:url('images/spaghetti.jpg');
-  height: fill;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+p {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 15px;
 }
 
-.jumbotron .container {
-  position: relative;
-  top:100px;
-  text-align:center;
-
-}
-
-.jumbotron h1 {
-  color: black;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
-  text-align: center;
-}
-
-.jumbotron p {
-  font-size: 20px;
-  color: black;
-  text-align: center;
-}
-
-.jumbotron a {
-  font-size: 15px;
-  color: black;
-  
+a {
+    font-size: 15px;
+    color: black;
 }
 
 .logo {
-  
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
+    padding: 50px;
 }
 
 .logo img {
-    
-  display: inline-block;
-    max-height: 153px;
-    
-   
-  
-   
-    
-    
-    
-}
-
-.centered {
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
-    vertical-align: middle;
+    display: block;
+    max-height: 153px;
 }
 
+.nav {
+    text-align: center;
+    padding: 15px;
+}
 
+.nav a {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
 
+.nav li {
+    display: inline-block;
+}
 .btn {
-  display: inline;
-  border: none;
-  
-  letter-spacing: 2px;
-  transition: 0.2s;
+    display: inline;
+    border: none;
+    letter-spacing: 2px;
+    transition: 0.2s;
 }
 
 .btn:hover {
-	color: #fff;
-  
-  
-  transform:scale(1.1);
-  transition: 0.2s;
-  
-  letter-spacing: 2px;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.2s;
+    letter-spacing: 2px;
 }
 
-.about{
+.about {
     text-align: center;
     background-color: #efefef;
     border-top: 1px solid #dbdbdb;
@@ -111,19 +90,18 @@
     background-color: #efefef;
     border-top: 1px solid #dbdbdb;
     border-bottom: 1px solid #dbdbdb;
-  
 }
 
 .learn-more {
-  background-color: #f7f7f7;
+    background-color: #f7f7f7;
 }
 
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+    font-family: 'Shift', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .learn-more a {
-  color: #00b0ff;
+    color: #00b0ff;
 }
